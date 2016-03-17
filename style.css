@@ -1,0 +1,18 @@
+/*
+Theme Name:     	NBJ
+Theme URI:      	http://mikbook.local:60003
+Description:    	Tema til NBJ baseret på Uber
+Author:         	Mikael Tosti
+Author URI:     	http://www.tosti.info
+Text Domain:		Uber
+Template:       	uber
+Version:        	1.0.1
+*/
+/* =Imports styles from the parent theme
+-------------------------------------------------------------- */
+@charset "UTF-8";
+@import url("../uber/style.css");
+
+/* =Imports custom.css from sass
+-------------------------------------------------------------- */
+@import url("css/app.css");

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*#tacita-dean-film-stills-2011 img {
+  height: 385px;
+  width: 220px; }
+
+#tacita-dean-craneway-event-2010 img {
+  width: 300px;
+  height: 115px; }
+
+#tacita-dean-craneway-event-2010 img {
+  width: 300px;
+  height: 115px; }
+
+#tacita-dean-darmstadter-werkblock-2008 img {
+  width: 300px;
+  height: 225px; }*/
+/* nbj-projects */
+.works {
+  display: inline-block;
+  width: 100%; }
+
+.dots-at-work {
+  height: 20px;
+  background-image: url(images/dotted_line.gif);
+  background-repeat: no-repeat;
+  border-bottom: 0.1em dotted; }
+
+.works p {
+  float: left; }
+
+.works img {
+  width: 333px;
+  border: 0;
+  margin: 5px; }
+
+.works span {
+  border: 0;
+  margin: 5px; }
+
+/* 	visning af projekter	*/
+/* skills */
+/*.skillList > li:first-child {
+  display: none; }*/
+
+/* #pageHead	*/
+#pageHead {
+  padding: 10px 0 30px 0;
+  margin: 0 3% 30px 3%;
+  background: transparent url(images/dotted_line.gif) 0 bottom repeat-x; }
+
+#pageHead h1 {
+  font-size: 1.4em;
+  line-height: .7em;
+  padding: 0;
+  margin-bottom: 0;
+  display: block;
+  color: #555555; }
+
+#pageHead p {
+  margin: 0 !important;
+  padding: 10px 0 0 0 !important;
+  color: #b2b2b2;
+  line-height: 2em;
+  /*ændret fra 1em*/ }
+
+/* 	Typografi	*/
+h2.trompet {
+  color: #333333;
+  font-size: rem-calc(11);
+  line-height: 10.2;
+  max-width: 75%;
+  font-weight: 500;
+  font-style: italic; }
+
+.text-center, .center {
+  text-align: center; }
+
+.text-right, .right {
+  text-align: right; }
+
+.text-left, .left {
+  text-align: left; }
